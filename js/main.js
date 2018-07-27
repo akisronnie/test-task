@@ -25,6 +25,7 @@ $('.changepic').hover(function () {
     // console.dir($(this)[0].innerText);
 });
 $(".markavto").click(function () {
+    $("#mercedes").removeClass("chgcar");
     if (classmark) classmark.removeClass("chgcar");
     markavto = $(this)[0].id;
     $(this).addClass("chgcar");
