@@ -12,15 +12,12 @@ let styleavto = "СТАНДАРТ++";
 let markavto = 'mercedes';
 let classmark;
 $('.changepic').hover(function () {
-
     $('#selectStart').removeClass("selectedItem");
-
     $(obj).removeClass("selectedItem");
     obj = $(this);
     $(obj).addClass("selectedItem");
     styleavto = $(this)[0].innerText;
     styleavto = styleavto.substring(3);
-
     chgcar();
 });
 $(".markavto").click(function () {
@@ -36,7 +33,6 @@ function chgcar() {
     $('#maincar').attr('src', 'img/' + markavto + '/' + styleavto.toLowerCase() + '.jpg');
     let price = 0;
     let iconview = []
-
     switch (markavto) {
         case 'citroen':
             price += 5000
@@ -97,7 +93,4 @@ function chgcar() {
     for (i = 0; i < iconview.length; i++) {
         $('#addico').append('<img src="img/ico/' + iconview[i] + '.png" alt="car" style="width: 10%;">')
     }
-   
 }
-
-

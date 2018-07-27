@@ -89,14 +89,14 @@ padding-right: 40px; }
     margin-bottom: 15px;
     border-left: 2px solid #b99d61;
   }
-  .widget-list {
+.widget-list {
     padding: 0;
     list-style: none;
   }  
-  .widget-list a:before {
+.widget-list a:before {
     margin-right: 14px;
   }
-  .widget-list a {
+.widget-list a {
     text-decoration: none;
     outline: none;
     display: block;
@@ -107,19 +107,12 @@ padding-right: 40px; }
   }
 .hidemenu {display:none}
 .viewmenu {display:block}
-
-
 .widget-list .selectedItem {position: relative;
     background-color: tomato;color:white;}
-
 .addico {
 display: inline-block;
 margin-top: 150px;
 padding: 20px;}
-
-
-
-
 .bottname{    width: 60%;
     margin-left: 20%;
     margin-right: 20%;
@@ -127,21 +120,11 @@ padding: 20px;}
     background-color: tomato;
     color: white; 
     font-weight:bold;
-    
     font-size: 1vw;
-
     display: inline-block;
 	padding: 5px 20px;
 	position: relative;
-	
-	
-	
 }
-
-
-
-
-
 .count{
 	display: inline-block;
 	padding: 5px 20px;
@@ -150,7 +133,6 @@ padding: 20px;}
 	font-size: 1.5em;
 	background: tomato;
 }
-
 .chgcar::after{
 	position: absolute;
 	display: block;
@@ -163,9 +145,6 @@ padding: 20px;}
 	left: 50%;
 	transform: translateX(-50%);
 }
-
-
-
 .selectedItem::after{
 	display: block;
 	position: absolute;
@@ -173,7 +152,7 @@ padding: 20px;}
 	width: 0;
 	height: 0;
 	border: 15px solid transparent;
-	border-right: 20px solid #FF3D39;
+	border-right: 20px solid tomato;
 	left: -35px;
     top: 0;}
 .widget-list .selectedItem::after{
@@ -187,18 +166,17 @@ padding: 20px;}
         left: -50px;
         top: 0;
     }
-
-    .widget-list a:hover  {
+.widget-list a:hover  {
         color: white;
        background-color:tomato;
        position: relative;} 
 
-       #btnaddmenu{
+#btnaddmenu{
         background-color: darkslategrey; 
         color: white;
         position: relative;
        }
-       #btnaddmenu::after{
+#btnaddmenu::after{
         display: block;
         position: absolute;
         content: "";
