@@ -112,8 +112,7 @@ padding-right: 40px; }
     padding: 6px 0; 
     letter-spacing: 1px;
     font-weight: 300;
-    color: #444;
-    
+    color: #444;   
   }
 .hidemenu {display:none}
 .viewmenu {display:block}
@@ -124,9 +123,10 @@ padding-right: 40px; }
 .widget-list .selectedItem {
     background-color: tomato;color:white;}
 .chgcar {
-    background-color: dodgerblue;}
-
+    background-color: dodgerblue;
+}
 .addico {
-    display: inline-block;
+display: inline-block;
 margin-top: 150px;
 padding: 20px;}
+
