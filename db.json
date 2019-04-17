@@ -1,0 +1,28 @@
+[
+  {
+    "firstName": "Hydrogen",
+    "lastName": "Aalas",
+    "email": "bgbbb@bbb.ccc",
+    "avatar": "",
+    "phone": "+3801234455",
+    "position": "ganster worker",
+    "age": 43,
+    "sex": "male",
+    "department": "product",
+    "location": "Kharkiv",
+    "id": 1
+  },
+  {
+    "firstName": "Lithium",
+    "lastName": "Balas",
+    "email": "aaasdaa@bbb.ccc",
+    "avatar": "https://data.pixiz.com/output/user/frame/preview/400x400/9/8/0/6/2016089_2110d.jpg",
+    "phone": "+3801234455",
+    "position": "manager doctor ganster worker",
+    "age": 23,
+    "sex": "male",
+    "department": "marketing",
+    "location": "Amsterdam",
+    "id": 2
+  }
+]
