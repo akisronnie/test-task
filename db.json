@@ -1,28 +1,14 @@
-[
-  {
-    "firstName": "Hydrogen",
-    "lastName": "Aalas",
-    "email": "bgbbb@bbb.ccc",
-    "avatar": "",
-    "phone": "+3801234455",
-    "position": "ganster worker",
-    "age": 43,
-    "sex": "male",
-    "department": "product",
-    "location": "Kharkiv",
-    "id": 1
-  },
-  {
-    "firstName": "Lithium",
-    "lastName": "Balas",
-    "email": "aaasdaa@bbb.ccc",
-    "avatar": "https://data.pixiz.com/output/user/frame/preview/400x400/9/8/0/6/2016089_2110d.jpg",
-    "phone": "+3801234455",
-    "position": "manager doctor ganster worker",
-    "age": 23,
-    "sex": "male",
-    "department": "marketing",
-    "location": "Amsterdam",
-    "id": 2
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
